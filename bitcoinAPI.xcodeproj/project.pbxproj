@@ -12,7 +12,60 @@
 		0420CA3620626F6700CC0510 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0420CA3420626F6700CC0510 /* Main.storyboard */; };
 		0420CA3820626F6700CC0510 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0420CA3720626F6700CC0510 /* Assets.xcassets */; };
 		0420CA3B20626F6700CC0510 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0420CA3920626F6700CC0510 /* LaunchScreen.storyboard */; };
+		0420CA5C2062737D00CC0510 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0420CA4E206272EF00CC0510 /* Alamofire.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0420CA4D206272EF00CC0510 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0420CA42206272EE00CC0510 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		0420CA4F206272EF00CC0510 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0420CA42206272EE00CC0510 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		0420CA51206272EF00CC0510 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0420CA42206272EE00CC0510 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire macOS";
+		};
+		0420CA53206272EF00CC0510 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0420CA42206272EE00CC0510 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire macOS Tests";
+		};
+		0420CA55206272EF00CC0510 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0420CA42206272EE00CC0510 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626EF1BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS";
+		};
+		0420CA57206272EF00CC0510 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0420CA42206272EE00CC0510 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626F81BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS Tests";
+		};
+		0420CA59206272EF00CC0510 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0420CA42206272EE00CC0510 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4202FE01B667AA100C997FB;
+			remoteInfo = "Alamofire watchOS";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0420CA2D20626F6700CC0510 /* bitcoinAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bitcoinAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +75,7 @@
 		0420CA3720626F6700CC0510 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0420CA3A20626F6700CC0510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0420CA3C20626F6700CC0510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0420CA42206272EE00CC0510 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Alamofire.xcodeproj; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0420CA5C2062737D00CC0510 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +95,7 @@
 			children = (
 				0420CA2F20626F6700CC0510 /* bitcoinAPI */,
 				0420CA2E20626F6700CC0510 /* Products */,
+				0420CA5B2062737D00CC0510 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +110,7 @@
 		0420CA2F20626F6700CC0510 /* bitcoinAPI */ = {
 			isa = PBXGroup;
 			children = (
+				0420CA42206272EE00CC0510 /* Alamofire.xcodeproj */,
 				0420CA3020626F6700CC0510 /* AppDelegate.swift */,
 				0420CA3220626F6700CC0510 /* ViewController.swift */,
 				0420CA3420626F6700CC0510 /* Main.storyboard */,
@@ -62,6 +119,27 @@
 				0420CA3C20626F6700CC0510 /* Info.plist */,
 			);
 			path = bitcoinAPI;
+			sourceTree = "<group>";
+		};
+		0420CA43206272EE00CC0510 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0420CA4E206272EF00CC0510 /* Alamofire.framework */,
+				0420CA50206272EF00CC0510 /* Alamofire iOS Tests.xctest */,
+				0420CA52206272EF00CC0510 /* Alamofire.framework */,
+				0420CA54206272EF00CC0510 /* Alamofire macOS Tests.xctest */,
+				0420CA56206272EF00CC0510 /* Alamofire.framework */,
+				0420CA58206272EF00CC0510 /* Alamofire tvOS Tests.xctest */,
+				0420CA5A206272EF00CC0510 /* Alamofire.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0420CA5B2062737D00CC0510 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,12 +189,70 @@
 			mainGroup = 0420CA2420626F6700CC0510;
 			productRefGroup = 0420CA2E20626F6700CC0510 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 0420CA43206272EE00CC0510 /* Products */;
+					ProjectRef = 0420CA42206272EE00CC0510 /* Alamofire.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				0420CA2C20626F6700CC0510 /* bitcoinAPI */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		0420CA4E206272EF00CC0510 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 0420CA4D206272EF00CC0510 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0420CA50206272EF00CC0510 /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = 0420CA4F206272EF00CC0510 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0420CA52206272EF00CC0510 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 0420CA51206272EF00CC0510 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0420CA54206272EF00CC0510 /* Alamofire macOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire macOS Tests.xctest";
+			remoteRef = 0420CA53206272EF00CC0510 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0420CA56206272EF00CC0510 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 0420CA55206272EF00CC0510 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0420CA58206272EF00CC0510 /* Alamofire tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire tvOS Tests.xctest";
+			remoteRef = 0420CA57206272EF00CC0510 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0420CA5A206272EF00CC0510 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 0420CA59206272EF00CC0510 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		0420CA2B20626F6700CC0510 /* Resources */ = {
@@ -275,6 +411,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J33R4SB9AR;
 				INFOPLIST_FILE = bitcoinAPI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BRN.bitcoinAPI;
@@ -289,6 +426,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J33R4SB9AR;
 				INFOPLIST_FILE = bitcoinAPI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BRN.bitcoinAPI;
